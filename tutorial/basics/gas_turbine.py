@@ -202,6 +202,8 @@ ax.set_ylabel('Mass fraction of the fuel in %')
 ax.set_xlabel('Thermal input in MW')
 ax.set_ybound([0, 100])
 
+print('c5.fluid.val', c5.fluid.val)
+
 plt.tight_layout()
 fig.savefig('gas_turbine_fuel_composition.svg')
 plt.close()

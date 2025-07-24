@@ -126,6 +126,8 @@ for key in data:
     i += 1
 
 ax[0].set_ylabel('COP of the heat pump')
+print(cp.P.val)
+print(cp.P.unit)
 
 plt.tight_layout()
 
